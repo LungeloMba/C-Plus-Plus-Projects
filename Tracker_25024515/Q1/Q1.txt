@@ -1,0 +1,2 @@
+Q1
+RainRecord stores station, date and rainfall. The class exposes a Q_PROPERTY named data with READ getData. The getData function is private and is available through the meta-object.

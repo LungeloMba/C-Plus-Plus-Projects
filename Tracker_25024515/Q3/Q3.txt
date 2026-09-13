@@ -1,0 +1,2 @@
+Q3
+StationThread subclasses QThread and emits foundStation(date, mm) for matching stations. Client connects the signal to handleFound using a queued connection. MyTableWidget is the originator, MyTableWidgetMemento is the memento, and Client acts as the caretaker by storing the memento.

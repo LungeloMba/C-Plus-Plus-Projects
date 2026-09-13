@@ -1,0 +1,2 @@
+Q2
+RainXml uses a classic singleton with a private constructor, deleted copy operations and a static getInstance function. Station validation uses ^([A-Z])[a-z]{2}\\1[1-9][0-9]{2}$. XML is generated with QXmlStreamWriter using the required rainRecord, rain, station and mm elements.
